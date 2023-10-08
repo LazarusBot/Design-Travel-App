@@ -16,6 +16,12 @@
 		A04B51CA29DCDCEC00E36FE6 /* Design_Travel_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04B51C929DCDCEC00E36FE6 /* Design_Travel_AppTests.swift */; };
 		A04B51D429DCDCEC00E36FE6 /* Design_Travel_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04B51D329DCDCEC00E36FE6 /* Design_Travel_AppUITests.swift */; };
 		A04B51D629DCDCEC00E36FE6 /* Design_Travel_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04B51D529DCDCEC00E36FE6 /* Design_Travel_AppUITestsLaunchTests.swift */; };
+		A04B51E329DCE37600E36FE6 /* Submaster.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A04B51E229DCE37600E36FE6 /* Submaster.ttf */; };
+		A04B51ED29DCFAC900E36FE6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04B51EC29DCFAC900E36FE6 /* MapView.swift */; };
+		A04B51EF29DD042200E36FE6 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04B51EE29DD042200E36FE6 /* CardView.swift */; };
+		A04B51F329DDCE0200E36FE6 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04B51F229DDCE0200E36FE6 /* CardData.swift */; };
+		A04B51F629DDCEF700E36FE6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04B51F529DDCEF700E36FE6 /* Card.swift */; };
+		A04B51F829DDD7EE00E36FE6 /* CardScroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04B51F729DDD7EE00E36FE6 /* CardScroll.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +54,15 @@
 		A04B51CF29DCDCEC00E36FE6 /* Design Travel AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Design Travel AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A04B51D329DCDCEC00E36FE6 /* Design_Travel_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_Travel_AppUITests.swift; sourceTree = "<group>"; };
 		A04B51D529DCDCEC00E36FE6 /* Design_Travel_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Design_Travel_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A04B51E229DCE37600E36FE6 /* Submaster.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Submaster.ttf; sourceTree = "<group>"; };
+		A04B51E629DCE58100E36FE6 /* Design-Travel-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Design-Travel-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A04B51EA29DCEF1600E36FE6 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		A04B51EB29DCEF1900E36FE6 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		A04B51EC29DCFAC900E36FE6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		A04B51EE29DD042200E36FE6 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A04B51F229DDCE0200E36FE6 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		A04B51F529DDCEF700E36FE6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		A04B51F729DDD7EE00E36FE6 /* CardScroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScroll.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +93,7 @@
 		A04B51A729DCDCEB00E36FE6 = {
 			isa = PBXGroup;
 			children = (
+				A04B51E729DCEACB00E36FE6 /* Fonts */,
 				A04B51B229DCDCEB00E36FE6 /* Design Travel App */,
 				A04B51C829DCDCEC00E36FE6 /* Design Travel AppTests */,
 				A04B51D229DCDCEC00E36FE6 /* Design Travel AppUITests */,
@@ -98,8 +114,11 @@
 		A04B51B229DCDCEB00E36FE6 /* Design Travel App */ = {
 			isa = PBXGroup;
 			children = (
+				A04B51F429DDCEE000E36FE6 /* Cards */,
+				A04B51F129DDCDF300E36FE6 /* Data */,
+				A04B51F029DD091E00E36FE6 /* PrincipalViews */,
+				A04B51E629DCE58100E36FE6 /* Design-Travel-App-Info.plist */,
 				A04B51B329DCDCEB00E36FE6 /* Design_Travel_AppApp.swift */,
-				A04B51B529DCDCEB00E36FE6 /* ContentView.swift */,
 				A04B51B729DCDCEC00E36FE6 /* Assets.xcassets */,
 				A04B51BC29DCDCEC00E36FE6 /* Persistence.swift */,
 				A04B51BE29DCDCEC00E36FE6 /* Design_Travel_App.xcdatamodeld */,
@@ -131,6 +150,43 @@
 				A04B51D529DCDCEC00E36FE6 /* Design_Travel_AppUITestsLaunchTests.swift */,
 			);
 			path = "Design Travel AppUITests";
+			sourceTree = "<group>";
+		};
+		A04B51E729DCEACB00E36FE6 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A04B51EA29DCEF1600E36FE6 /* Poppins-Bold.ttf */,
+				A04B51EB29DCEF1900E36FE6 /* Poppins-Light.ttf */,
+				A04B51E229DCE37600E36FE6 /* Submaster.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		A04B51F029DD091E00E36FE6 /* PrincipalViews */ = {
+			isa = PBXGroup;
+			children = (
+				A04B51EE29DD042200E36FE6 /* CardView.swift */,
+				A04B51EC29DCFAC900E36FE6 /* MapView.swift */,
+				A04B51B529DCDCEB00E36FE6 /* ContentView.swift */,
+			);
+			path = PrincipalViews;
+			sourceTree = "<group>";
+		};
+		A04B51F129DDCDF300E36FE6 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				A04B51F229DDCE0200E36FE6 /* CardData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		A04B51F429DDCEE000E36FE6 /* Cards */ = {
+			isa = PBXGroup;
+			children = (
+				A04B51F529DDCEF700E36FE6 /* Card.swift */,
+				A04B51F729DDD7EE00E36FE6 /* CardScroll.swift */,
+			);
+			path = Cards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,6 +295,7 @@
 			files = (
 				A04B51BB29DCDCEC00E36FE6 /* Preview Assets.xcassets in Resources */,
 				A04B51B829DCDCEC00E36FE6 /* Assets.xcassets in Resources */,
+				A04B51E329DCE37600E36FE6 /* Submaster.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,8 +322,13 @@
 			files = (
 				A04B51BD29DCDCEC00E36FE6 /* Persistence.swift in Sources */,
 				A04B51C029DCDCEC00E36FE6 /* Design_Travel_App.xcdatamodeld in Sources */,
+				A04B51ED29DCFAC900E36FE6 /* MapView.swift in Sources */,
+				A04B51F329DDCE0200E36FE6 /* CardData.swift in Sources */,
 				A04B51B629DCDCEB00E36FE6 /* ContentView.swift in Sources */,
+				A04B51EF29DD042200E36FE6 /* CardView.swift in Sources */,
 				A04B51B429DCDCEB00E36FE6 /* Design_Travel_AppApp.swift in Sources */,
+				A04B51F829DDD7EE00E36FE6 /* CardScroll.swift in Sources */,
+				A04B51F629DDCEF700E36FE6 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +490,7 @@
 				DEVELOPMENT_TEAM = JGA9DL8HHT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Design-Travel-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -457,6 +520,7 @@
 				DEVELOPMENT_TEAM = JGA9DL8HHT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Design-Travel-App-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
